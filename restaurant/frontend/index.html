@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7a1f1f" />
+  <meta name="description" content="مطعم الذوق في اللاذقية - مطعم عربي أصيل يقدّم أشهى الأطباق الشرقية والمشاوي والصلطات والحلويات في أجواء عائلية أنيقة." />
+  <meta name="keywords" content="مطعم الذوق, مطعم عربي, اللاذقية, مطاعم اللاذقية, مشاوي, مطعم عائلي" />
+  <title>مطعم الذوق | مطعم عربي أصيل في اللاذقية</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%BD%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Amiri (display) + Tajawal (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- React mount point (loader shown until Babel finishes transpiling) -->
+  <div id="root">
+    <div class="app-loader" aria-label="جارٍ التحميل">
+      <div class="app-loader__spinner"></div>
+      <p class="app-loader__text">مطعم الذوق</p>
+    </div>
+  </div>
+
+  <!-- React + ReactDOM + Babel from CDN (no build step, no Vite, no Node) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.21.4/babel.min.js"></script>
+
+  <!-- App code (JSX transpiled in-browser by Babel — classic runtime) -->
+  <script type="text/babel" data-presets="react" src="script.js"></script>
+</body>
+</html>
