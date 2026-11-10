@@ -1,0 +1,20 @@
+# PyCharm settings
+.idea/
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database and sensitive files
+restaurant.db
+db.py
+config.py
+
+# OS files
+start.bat
+SETUP.txt
+.DS_Store
